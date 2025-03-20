@@ -1,0 +1,260 @@
+body {margin: 0}
+
+.backround {
+  background-image: url(../images/backroundseason.png);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+
+  font-family: "Nunito Sans";
+  font-size: 36px;
+}
+
+.title {
+  background-color: white;
+  height: 80px;
+  width: 600px;
+  margin: auto;
+  border-radius: 24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  margin-top: 50px;
+
+  position: relative;
+}
+
+.qindex {
+  margin: auto;
+  margin-top: 50px;
+}
+.questions {
+  background-color: white;
+  height: 700px;
+  width: 1150px;
+  border-radius: 24px;
+}
+.questions1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.surveytitle {
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  gap: 17%;
+}
+.contacts {
+  transform: translateX(-145px);
+}
+
+.qtitle {text-align: center;
+position: relative;
+top: 50px;
+
+}
+#qcards {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.qno-img {
+  flex-direction: column;
+  font-size: 36px;
+  transform: translate(10%);
+}
+.qimg {
+  height: 200px;
+  width: 240px;
+  border-radius: 24px;
+}
+.qtext {
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  position: relative;
+}
+.indexbody #buttons {
+  margin-top: 43px;
+}
+.page2body #buttons {
+  margin-top: 184px;
+}
+.surveybody #buttons {
+  margin-top: 184px;
+}
+
+.choicepage2 #qtext, .choicepage2 #qtext1, .choicepage2 #qtext2 {
+  font-size: 36px !important;
+}
+
+a {
+  all: unset;
+}
+a:hover {
+  cursor: pointer;
+}
+.back, .next {
+  background-color: #A4C18B;
+  height: 70px;
+  width: 180px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+  font-weight: 500;
+  box-shadow: inset 0px 0px 30px rgba(73, 83, 64, 0.3);
+  font-size: 27px;
+
+  cursor: pointer;
+}
+
+button {
+  all: unset;
+}
+button:hover {
+  cursor: pointer;
+}
+.survey input {
+  all: unset;
+}
+
+.cbox1 {
+  margin-top: 150px;
+  transform: translate(5%, 12.5%);
+}
+#cagreement {
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+#name, #phone {
+  width: 320px;
+  border: 3px solid rgba(64, 76, 55, 0.6);
+  border-radius: 7px;
+}
+#phone {
+  margin-top: 4px;
+}
+#season {
+  opacity: 0;
+  position: absolute;
+}
+.inputb::placeholder {
+  opacity: 0.7
+}
+
+.alertphone {
+  color: red;
+  position: absolute;
+  bottom: 550px;
+  right: 829px;
+}
+.alertname {
+  color: red;
+  position: absolute;
+  bottom: 610px;
+  right: 935px;
+}
+
+.grider {
+  display: grid;
+  height: 100px;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 57vh;
+  position: absolute;
+  justify-content: center;
+}
+.alertnext {
+  font-size: 25px;
+  color: red;
+  user-select: none;
+  opacity: 0;
+}
+.griderindex {
+  display: grid;
+  height: 100px;
+  width: 100%;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 57vh;
+  position: absolute;
+}
+.alertnextindex {
+  margin-left: 23.3vw;
+  font-size: 25px;
+  color: red;
+  user-select: none;
+  opacity: 0;
+}
+
+#headingposition {
+  position: absolute;
+  transform: translate(480%, 45%);
+}
+#seasonheading {
+  position: relative;
+  user-select: none;
+  z-index: 1;
+  font-size: 34px;
+  font-weight: 500;
+}
+.summerh {
+  opacity: 0;
+}
+.fallh {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.winterh {
+  transform: translateY(-200%);
+  opacity: 0;
+}
+.springh {
+  transform: translateY(-300%);
+  opacity: 0;
+}
+
+#seasontext {
+  position: absolute;
+  width: 500px;
+  height: 165px;
+  font-size: 20px;
+  z-index: 2;
+  transform: translate(115%, 50%);
+}
+.summert {
+  position: absolute;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.fallt {
+  position: absolute;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.wintert {
+  position: absolute;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.springt {
+  position: absolute;
+  transform: translateY(50%);
+  opacity: 0;
+}
+.correctresult-text {
+  height: 162px;
+}
