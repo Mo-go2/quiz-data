@@ -100,10 +100,3 @@ if (sessionValues.length === 5) {
   sessionStorage.setItem('savedValues', JSON.stringify(sessionValues));
 }
 
-
-
-
-
-
-
-// NOTE: перенести проект на github и сервер
