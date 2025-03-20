@@ -1,3 +1,3 @@
 quiz-season.
-* for correct work run on a local server
+* for correct work you might run on a local server
 * made on pure js
